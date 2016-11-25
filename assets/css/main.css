@@ -461,6 +461,7 @@ ul li {
  * 6.7 Section: Schedule
  */
 .partner {
+  text-align: center;
   background-color: #f8f8f8;
 }
 .partner .partner-box {
@@ -476,7 +477,7 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/SSC3-150x150.png) no-repeat center center/contain;
+  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
   background: url(../images/partner/partner-2.png) no-repeat center center/contain;
