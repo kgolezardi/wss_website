@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Winter Seminar Series</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="../assets/images/wss_logo.png" alt="Logo" width="45px">
+
+                        Winter Seminar Series
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>                  
+                    <li><a data-scroll href="#partner">Sponsors</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <!-- <li><a data-scroll href="#faq">FAQ</a></li> -->
+                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h1>Winter Seminar Series</h1>
+            <h1>Advanced Topics in Computer Science and Engineering</h1>
+
+            <h2>Sharif University of Technology / 28-29 December 2016</h2>
+            
+            <!-- <p>First &amp; Largest Conference</p> -->
+            
+            <a class="btn btn-white" data-scroll href="#about">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="single-speaker" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+				
+                    <h3 class="section-title">﻿Ali Ahari</h3>
+					<h4>Scientific Researcher, Forschungszentrum Informatik</h4>
+                
+                </div>
+            </div>
+			
+			<div class="row">
+				<div class='col-md-4'><div class='speaker'><figure><img alt='' class='img-responsive center-block' src='../assets/images/speakers/ali-ahari.jpg' width='250px'></figure></div></div>
+				<div class='col-md-8'><div class='single-speaker'>
+				<h4>Title</h4>
+				<p>Improving reliability, performance, and energy efficiency of STT-MRAM with dynamic write latency</p>
+				<h4>Abstract</h4>
+				<p>High write latency and high write energy are the major challenges in Spin Transfer Torque Magnetic Random Access Memory (STT-MRAM) design. The write operation in STT-MRAM is of stochastic nature. Therefore, it requires a very long timing margin to maintain an acceptable level of reliability and yield. Traditionally, Error Correction Codes (ECCs) are used to reduce the timing margin in STT-MRAM. However, they impose high storage and latency overheads. In this talk, I present a low-cost architecture-level technique to significantly reduce the amount of required timing margin. This technique employs a handshaking protocol between the memory and its controller to dynamically determine the write latency at run-time. The simulation infrastructure comprehensively models the combined effect of process variation and stochastic write behavior at circuit-level and abstracts it to architecture-level. The simulation results show that this technique not only considerably reduces the write error rate but also improves the overall system performance on average by 15.4% compared to existing solutions.</p>
+				<h4>Bio</h4>
+				<p>Ali Ahari received his B.Sc. and M.Sc. degrees in Computer Engineering from Sharif University of Technology in 2011 and 2013, respectively. He has been a research assistant at the Chair of Dependable Nano computing at Karlsruhe Institute of Technology and also he has collaborated with the Chair of Embedded Security at Ruhr University as a visiting scholar. Since September 2015 he works as a scientific staff at the Department of Microelectronic System Design (SIM) of the FZI Forschungszetruminformatik in Karlsruhe, Germany.</p>
+				</div></div>
+			</div>
+			
+		</div>
+	</section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Designed and <br> Developed by <a href="http://technextit.com">Technext Limited</a></p>
+                    <!-- <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

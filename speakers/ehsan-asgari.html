@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Winter Seminar Series</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="../assets/images/wss_logo.png" alt="Logo" width="45px">
+
+                        Winter Seminar Series
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>                  
+                    <li><a data-scroll href="#partner">Sponsors</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <!-- <li><a data-scroll href="#faq">FAQ</a></li> -->
+                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h1>Winter Seminar Series</h1>
+            <h1>Advanced Topics in Computer Science and Engineering</h1>
+
+            <h2>Sharif University of Technology / 28-29 December 2016</h2>
+            
+            <!-- <p>First &amp; Largest Conference</p> -->
+            
+            <a class="btn btn-white" data-scroll href="#about">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="single-speaker" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+				
+                    <h3 class="section-title">Ehsan Asgari</h3>
+					<h4>PhD Candidate, University of California, Berkeley</h4>
+                
+                </div>
+            </div>
+			
+			<div class="row">
+				<div class='col-md-4'><div class='speaker'><figure><img alt='' class='img-responsive center-block' src='../assets/images/speakers/ehsan-asgari.jpg' width='250px'></figure></div></div>
+				<div class='col-md-8'><div class='single-speaker'>
+				<h4>Title</h4>
+				<p>Bioinformatics, Natural Language Processing, Character based Deep NLP, Machine Learning, Deep Learning, Digital Humanities</p>
+				<h4>Abstract</h4>
+				<p>Continuous Distributed Representation of Biological Sequences for Deep Proteomics and Genomics</p>
+				<h4>Bio</h4>
+				<p>We introduce a new representation and feature extraction method for biological sequences. Named bio-vectors (BioVec) to refer to biological sequences in general with protein-vectors (ProtVec) for proteins (amino-acid sequences) and gene-vectors (GeneVec) for gene sequences, this representation can be widely used in applications of deep learning in proteomics and genomics. In the present paper, we focus on protein-vectors that can be utilized in a wide array of bioinformatics investigations such as family classification, protein visualization, structure prediction, disordered protein identification, and protein-protein interaction prediction. In this method, we adopt artificial neural network approaches and represent a protein sequence with a single dense n-dimensional vector. To evaluate this method, we apply it in classification of 324,018 protein sequences obtained from Swiss-Prot belonging to 7,027 protein families, where an average family classification accuracy of 93%±0.06% is obtained, outperforming existing family classification methods. In addition, we use ProtVec representation to predict disordered proteins from structured proteins. Two databases of disordered sequences are used: the DisProt database as well as a database featuring the disordered regions of nucleoporins rich with phenylalanine-glycine repeats (FG-Nups). Using support vector machine classifiers, FG-Nup sequences are distinguished from structured protein sequences found in Protein Data Bank (PDB) with a 99.8% accuracy, and unstructured DisProt sequences are differentiated from structured DisProt sequences with 100.0% accuracy. These results indicate that by only providing sequence data for various proteins into this model, accurate information about protein structure can be determined. Importantly, this model needs to be trained only once and can then be applied to extract a comprehensive set of information regarding proteins of interest. Moreover, this representation can be considered as pre-training for various applications of deep learning in bioinformatics. The related data is available at Life Language Processing Website: http://llp.berkeley.edu and Harvard Dataverse: http://dx.doi.org/10.7910/DVN/JMFHTN.</p>
+				</div></div>
+			</div>
+			
+		</div>
+	</section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Designed and <br> Developed by <a href="http://technextit.com">Technext Limited</a></p>
+                    <!-- <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

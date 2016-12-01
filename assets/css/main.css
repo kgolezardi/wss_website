@@ -414,6 +414,9 @@ ul li {
   text-transform: uppercase;
   margin: 25px 0;
 }
+.speaker a {
+	text-decoration: none;
+}
 .speaker h4 {
   margin-top: 15px;
   margin-bottom: 5px;
@@ -421,7 +424,23 @@ ul li {
 .speaker p {
   margin-bottom: 5px;
 }
-.speaker img:hover {
+.speaker:hover img {
+  opacity: .7;
+}
+
+.single-speaker {
+  color: #313131;
+  margin: 25px 0;
+}
+.single-speaker h4 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.single-speaker p {
+  margin-bottom: 5px;
+}
+.single-speaker:hover img {
   /*opacity: .7;*/
 }
 

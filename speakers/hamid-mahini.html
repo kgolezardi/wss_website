@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Winter Seminar Series</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="../assets/images/wss_logo.png" alt="Logo" width="45px">
+
+                        Winter Seminar Series
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Speakers</a></li>                  
+                    <li><a data-scroll href="#partner">Sponsors</a></li>              
+                    <li><a data-scroll href="#schedule">Schedule</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <!-- <li><a data-scroll href="#faq">FAQ</a></li> -->
+                    <!-- <li><a data-scroll href="#photos">Photos</a></li> -->
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h1>Winter Seminar Series</h1>
+            <h1>Advanced Topics in Computer Science and Engineering</h1>
+
+            <h2>Sharif University of Technology / 28-29 December 2016</h2>
+            
+            <!-- <p>First &amp; Largest Conference</p> -->
+            
+            <a class="btn btn-white" data-scroll href="#about">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="single-speaker" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+				
+                    <h3 class="section-title">Hamid Mahini</h3>
+					<h4>Researcher, University of Maryland</h4>
+                
+                </div>
+            </div>
+			
+			<div class="row">
+				<div class='col-md-4'><div class='speaker'><figure><img alt='' class='img-responsive center-block' src='../assets/images/speakers/hamid-mahini.jpg' width='250px'></figure></div></div>
+				<div class='col-md-8'><div class='single-speaker'>
+				<h4>Title</h4>
+				<p>How to Influence People with Partial Incentives</p>
+				<h4>Abstract</h4>
+				<p>We study the power of fractional allocations of resources to maximize influence in a network. This work extends in a natural way the well-studied model by Kempe, Kleinberg, and Tardos (2003), where a designer selects a (small) seed set of nodes in a social network to influence directly, this influence cascades when other nodes reach certain thresholds of neighbor influence, and the goal is to maximize the final number of influenced nodes. Despite extensive study from both practical and theoretical viewpoints, this model limits the designer to a binary choice for each node, with no way to apply intermediate levels of influence. This model captures some settings precisely, e.g. exposure to an idea or pathogen, but it fails to capture very relevant concerns in others, for example, a manufacturer promoting a new product by distributing five ""20% off"" coupons instead of giving away one free product. While fractional versions of problems tend to be easier to solve than integral versions, for influence maximization, we show that the two versions have essentially the same computational complexity. On the other hand, the two versions can have vastly different solutions: the added flexibility of fractional allocation can lead to significantly improved influence. Our main theoretical contribution is to show how to adapt the major positive results from the integral case to the fractional case. Specifically, Mossel and Roch (2006) used the submodularity of influence to obtain their integral results; we introduce a new notion of continuous submodularity, and use this to obtain matching fractional results. We conclude that we can achieve the same greedy (1−1/e−ϵ)-approximation for the fractional case as the integral case. In practice, we find that the fractional model performs substantially better than the integral model, according to simulations on real-world social network data.</p>
+				<h4>Bio</h4>
+				<p>Assistant professor, University of Tehran, 2016-now
+CTO at TAP30, 2015-now
+Research Scientist, Rocket Fuel Inc, San Francisco Bay Area, 2015
+Postdoctoral Research, CS Department, University of Maryland, 2012-2014
+PhD, Computer Engineering, Sharif University of Technology, 2006-2011</p>
+				</div></div>
+			</div>
+			
+		</div>
+	</section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Designed and <br> Developed by <a href="http://technextit.com">Technext Limited</a></p>
+                    <!-- <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
