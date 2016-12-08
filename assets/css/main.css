@@ -475,6 +475,14 @@ ul li {
   left: 5px;
   border: 1px solid #fff;
 }
+#schedule table {
+	table-layout: fixed;
+	font-weight: bold;
+}
+#schedule table .title {
+	font-size: 0.7em;
+	font-weight: normal;
+}
 
 /* 
  * 6.7 Section: Schedule

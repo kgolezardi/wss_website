@@ -76,9 +76,13 @@
 				<div class='col-md-4'><div class='speaker'><figure><img alt='' class='img-responsive center-block' src='../assets/images/speakers/armi-zandieh.jpg' width='250px'></figure><h4>Amir Zandieh</h4><p>PhD, École Polytechnique Fédérale de Lausanne</p></div></div>
 				<div class='col-md-8'><div class='single-speaker'>
 				<h4>Title</h4>
-				<p>Beyond Supervised Deep Learning</p>
+				<p>Nearly optimal Sparse FF</p>
 				<h4>Abstract</h4>
-				<p>Deep learning has transformed the way in which we design machine learning systems. In this talk I will provide a brief overview of modern advances to the deep learning paradigm. Starting off with deep reinforcement learning: DQN (Nature, 2015) and A3C (CoRR, 2015), I will then motivate the role of generative modelling in the emerging research landscape and discuss several recent models, including PIxel CNNs (ICML, 2016), AIR (NIPS, 2016) and Conditional 2D->3D (NIPS, 2016).</p>
+				<p>The problem of approximately computing the k dominant Fourier coefficients of a vector quickly and using few samples in time domain is known as the Sparse Fourier Transform (Sparse FFT) problem. A long line of work on Sparse FFT has resulted in algorithms with O(k log⁡n  log⁡〖(n/k)〗) runtime and O(k log⁡n) sample complexity [Hassanieh et al’STOC’12]. The mentioned result is non-adaptive, and is essentially the best possible under the sparsity assumption alone: It is known that even adaptive algorithms must use Ω((k log⁡n)/log⁡log⁡n  ) samples [Hassanieh et al, STOC’12]. 
+We consider the problem of computing the k-sparse approximation to the discrete Fourier transform of an n-dimensional signal. The following are presented in [Hassanieh et al’STOC’12]:
+<br>• An O(k log⁡n)-time randomized algorithm for the case where the input signal has at most k non-zero Fourier coefficients, and 
+<br>• An O(k log⁡n  log⁡〖(n/k)〗)-time randomized algorithm for general input signals. 
+Both algorithms achieve o(n log⁡n) time, and thus improve over the Fast Fourier Transform, for any k=o(n). They are the first known algorithms that satisfy this property. Also, if one assumes that the Fast Fourier Transform is optimal, the algorithm for the exactly k-sparse case is optimal for any k=n^(Ω(1)).</p>
 				<h4>Bio</h4>
 				<p>Amir Zandieh is a PhD student at EPFL. He works on randomized approximation algorithms and is advised by prof. Michael Kapralov. His research interests are on Sparse recovery as well as sketching and Fourier sampling.</p>
 				</div></div>
