@@ -500,6 +500,12 @@ ul li {
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
+.partner h4 {
+  font-size: 15px;
+}
+.partner p {
+  font-size: 13px;
+}
 .partner .partner-box:hover {
   opacity: 1;
 }
