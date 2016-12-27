@@ -483,6 +483,10 @@ ul li {
 	font-size: 0.7em;
 	font-weight: normal;
 }
+#schedule table .hall {
+	font-size: 0.5em;
+	font-weight: normal;
+}
 
 /* 
  * 6.7 Section: Schedule
