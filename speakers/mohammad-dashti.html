@@ -19,7 +19,7 @@
 
                 <!-- logo -->
                 <div class="site-branding">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="../index.html">
                         
                         <!-- logo image  -->
                         <img src="../assets/images/wss_logo.png" alt="Logo" width="45px">
@@ -69,18 +69,18 @@
         </div>
     </header>
 
-    <section id="speaker" class="section single-speaker">
+    <section id="single-speaker" class="section single-speaker">
         <div class="container">
 			
 			<div class="row">
 				<div class='col-md-4'><div class='speaker'><figure><img alt='' class='img-responsive center-block' src='../assets/images/speakers/mohammad-dashti.jpg' width='250px'></figure><h4>Mohammad Dashti</h4><p>PhD, École Polytechnique Fédérale de Lausanne</p></div></div>
 				<div class='col-md-8'><div class='single-speaker'>
 				<h4>Title</h4>
-				<p>10:30-11:30</p>
+				<p>Repairing Transaction Conflicts in Optimistic Multi-Version Concurrency Control</p>
 				<h4>Abstract</h4>
-				<p>FIRST DAY, 28 DECEMBER 2016</p>
+				<p>The optimistic variants of Multi-Version Concurrency Control (MVCC) avoid blocking concurrent transactions at the cost of having a validation phase. Upon failure in the validation phase, the transaction is usually aborted and restarted from scratch. The “abort and restart” approach becomes a performance bottleneck for use cases with high contention objects or long running transactions. In addition, restarting from scratch creates a negative feedback loop in the system, because the system incurs additional overhead that may create even more conflicts. In this paper, we propose a novel approach for conflict resolution in MVCC for in-memory databases. This low overhead approach summarizes the transaction programs in the form of a dependency graph. The dependency graph also contains the constructs used in the validation phase of the MVCC algorithm. Then, when encountering conflicts among transactions, our mechanism quickly detects the conflict locations in the program and partially re-executes the conflicting transactions. This approach maximizes the reuse of the computations done in the initial execution round, and increases the transaction processing throughput.</p>
 				<h4>Bio</h4>
-				<p>Hall 6</p>
+				<p>Mohammad is a 5th-year PhD student at EPFL in Switzerland, advised by Prof. Christoph Koch. He is interested in database systems (in particular, transaction processing) and programming languages (in particular, compilation techniques). In his PhD research, he is pushing the limits of achieving high throughput/low latency for transaction processing while keeping the state strongly consistent, mainly by applying compilation techniques. Mentored by Phil Bernstein, he also did an internship at Microsoft Research in Redmond on Microsoft Orleans project  and is currently an open-source contributor to this project.</p>
 				</div></div>
 			</div>
 			

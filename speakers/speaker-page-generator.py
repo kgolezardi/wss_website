@@ -11,8 +11,8 @@ with open('speakers-data.csv', 'r', encoding='utf-8') as data_file:
 			output = output.replace('Single Speaker Name', row[0])
 			output = output.replace('Single Speaker Position', row[1])
 			output = output.replace('Single Speaker Photo', row[3])
-			output = output.replace('Single Speaker Title', row[4])
-			output = output.replace('Single Speaker Abstract', row[5])
-			output = output.replace('Single Speaker Bio', row[6])
+			output = output.replace('Single Speaker Title', row[7])
+			output = output.replace('Single Speaker Abstract', row[8])
+			output = output.replace('Single Speaker Bio', row[9])
 			with open(row[0].lower().replace(' ', '-') + '.html', 'w', encoding='utf-8') as output_file:
 				output_file.write(output)
